@@ -8,7 +8,7 @@ import 'package:food/models/meal.dart';
 const availableCategories = [
   Category(
     id: 'c1',
-    title: 'Italian',
+    title: 'Indian',
     color: Colors.purple,
   ),
   Category(
@@ -69,26 +69,27 @@ const dummyMeals = [
     affordability: Affordability.affordable,
     complexity: Complexity.simple,
     imageUrl:
-    'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.bbcgoodfood.com%2Frecipes%2Fsatay-sweet-potato-curry&psig=AOvVaw2DuVp167LunAANfYJtcCoq&ust=1713012860801000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCIiQ87DcvIUDFQAAAAAdAAAAABAE',
+    'https://images.pexels.com/photos/4617522/pexels-photo-4617522.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     duration: 60,
     ingredients: [
       '1 tbsp coconut oil',
       '1 onion, chopped',
       '2 garlic cloves, grated',
       'thumb-sized piece ginger, grated',
-      '3 tbsp Thai red curry paste (check the label to make sure it’s vegetarian/ vegan)',
+      '3 tbsp Thai red curry paste',
       '1 lime, juiced',
       '1 tbsp smooth peanut butter',
       '500g sweet potato, peeled and cut into chunks',
       '400ml can coconut milk',
-      'cooked rice, to serve (optional)',
-      'dry roasted peanuts, to serve (optional)',
     ],
     steps: [
-      'Melt 1 tbsp coconut oil in a saucepan over a medium heat and soften 1 chopped onion for 5 mins. Add 2 grated garlic cloves and a grated thumb-sized piece of ginger, and cook for 1 min until fragrant.',
+      'Melt 1 tbsp coconut oil in a saucepan over a medium heat and soften 1 chopped onion for 5 mins.',
+
+      'Add 2 grated garlic cloves and a grated thumb-sized piece of ginger, and cook for 1 min until fragrant.',
       'Stir in 3 tbsp Thai red curry paste, 1 tbsp smooth peanut butter and 500g sweet potato, peeled and cut into chunks, then add 400ml coconut milk and 200ml water.',
       'Bring to the boil, turn down the heat and simmer, uncovered, for 25-30 mins or until the sweet potato is soft.',
-      'Stir through 200g spinach and the juice of 1 lime, and season well. Serve with cooked rice, and if you want some crunch, sprinkle over a few dry roasted peanuts.',
+      'Stir through 200g spinach and the juice of 1 lime, and season well.',
+          ' Serve with cooked rice, and if you want some crunch, sprinkle over a few dry roasted peanuts.',
 
     ],
     isGlutenFree: true,
@@ -123,9 +124,19 @@ const dummyMeals = [
       '½ small bunch of parsley, finely chopped',
     ],
     steps: [
-      'Heat 2 tbsp of the oil in a pan over a medium heat and fry the onion gently for 10-12 mins. Add the garlic and chilli flakes and cook for 1 min. Tip in the tomatoes and sugar and season to taste. Simmer uncovered for 20 mins or until thickened, then stir through the mascarpone.',
-      'Heat 1 tbsp of oil in a non-stick frying pan. Season the chicken and fry for 5-7 mins or until the chicken is cooked through.',
-      'Heat the oven to 220C/200C fan/gas 7. Cook the penne following pack instructions. Drain and toss with the remaining oil. Tip the pasta into a medium sized ovenproof dish. Stir in the chicken and pour over the sauce. Top with the cheddar, mozzarella and parsley. Bake for 20 mins or until golden brown and bubbling.'
+
+      'Heat 2 tbsp of the oil in a pan over a medium heat',
+      'Fry the onion gently for 10-12 mins. ',
+      'Add the garlic and chilli flakes and cook for 1 min. ',
+      'Heat 1 tbsp of oil in a non-stick frying pan.',
+      'Heat the oven to 220C/200C fan/gas 7. ',
+      'Tip the pasta into a medium sized ovenproof dish.',
+      ' Stir in the chicken and pour over the sauce.',
+      'Top with the cheddar, mozzarella and parsley.',
+      'Bake for 20 mins or until golden brown and bubbling.',
+
+
+
     ],
     isGlutenFree: false,
     isVegan: false,
@@ -190,10 +201,10 @@ const dummyMeals = [
       'Tenderize the veal to about 2–4mm, and salt on both sides.',
       'On a flat plate, stir the eggs briefly with a fork.',
       'Lightly coat the cutlets in flour then dip into the egg, and finally, coat in breadcrumbs.',
-      'Heat the butter and oil in a large pan (allow the fat to get very hot) and fry the schnitzels until golden brown on both sides.',
+      'Heat the butter and oil in a large pan and fry the schnitzels until golden brown on both sides.',
       'Make sure to toss the pan regularly so that the schnitzels are surrounded by oil and the crumbing becomes ‘fluffy’.',
       'Remove, and drain on kitchen paper. Fry the parsley in the remaining oil and drain.',
-      'Place the schnitzels on awarmed plate and serve garnishedwith parsley and slices of lemon.'
+      'Place the schnitzels on a warmed plate and serve garnished with parsley and slices of lemon.',
     ],
     isGlutenFree: false,
     isVegan: false,
